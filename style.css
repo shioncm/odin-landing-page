@@ -12,7 +12,6 @@ body {
 .header{
     flex: 2;
     background-color: #1f2937;
-    /* display: flex; */
 }
    
 .header h1 {
@@ -51,14 +50,25 @@ body {
 /* Gallery */
 
 .gallery{
-    flex: 2;
+    /* display: flex; */
 }
 
 /* Quote */
 
 .quote{
-    flex: 1;
+    display: flex;
     background-color: #e5e7eb;
+    justify-content: center;
 }
 
 /* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
