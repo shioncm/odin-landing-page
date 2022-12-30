@@ -12,6 +12,8 @@ body {
 .header{
     flex: 2;
     background-color: #1f2937;
+    padding-left: 15%;
+    padding-right: 15%;
 }
    
 .header h1 {
@@ -59,6 +61,18 @@ body {
     display: flex;
     background-color: #e5e7eb;
     justify-content: center;
+}
+
+/* Banner */
+
+.banner{
+    display: flex;
+    margin: 5% 15% 5% 15%;
+    background-color: #3882f6;
+}
+
+.banner h3{
+    color: #f9faf8;
 }
 
 /* Footer */
