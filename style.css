@@ -84,7 +84,18 @@ body {
 }
 
 .banner > button{
-    
+    /* height: 30%;
+    width: 15%; */
+    box-sizing: border-box;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    /* margin-top: 5%; */
+    /* margin-bottom: 5%; */
+    /* padding: 0.5% 6% 0.5% 6%; */
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
 }
 
 /* Footer */
