@@ -107,6 +107,12 @@ body {
     cursor: pointer;
 }
 
+.banner button:hover{
+    background-color: #f9faf8;
+    border-color: #3882f6;
+    color: #3882f6;
+}
+
 /* Footer */
 
 footer{
@@ -115,6 +121,6 @@ footer{
     padding-top: 3%;
     padding-bottom: 3%;
     background-color: #1f2937;
-    font-size: 18px;
+    font-size: 15px;
     color: #e5e7eb;
 }
