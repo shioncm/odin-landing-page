@@ -4,6 +4,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    min-width: 100vw;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -61,13 +62,19 @@ body {
 .gallery h2{
     font-weight: 900;
     font-size: 36px;
+    text-align: center;
 }
 
 .gallery-pics{
     display: flex;
     justify-content: center;
-    max-width: min-content;
-    gap: 8%;
+    gap: 4%;
+    flex-wrap: wrap;
+}
+
+.pic {
+    max-width: fit-content;
+    flex-basis: 158px;
 }
 
 .pic img{
