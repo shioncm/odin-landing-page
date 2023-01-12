@@ -68,34 +68,43 @@ body {
 .banner{
     display: flex;
     flex-direction: row;
-    margin: 5% 15% 5% 15%;
-    background-color: #3882f6;
     justify-content: space-around;
+    align-items: center;
+    margin: 5% 15% 5% 15%;
+    padding: 2% 10% 2% 10%;
+    border-radius: 8px;
+    background-color: #3882f6;
 }
-
-/* .banner h3{
-    color: #f9faf8;
-} */
 
 .banner-text{
     display: flex;
     flex-direction: column;
+    margin-left: -10%;
+}
+
+.banner-text h3{
+    margin-block-end: 0.2em;
     color: #f9faf8;
 }
 
-.banner > button{
-    /* height: 30%;
-    width: 15%; */
-    box-sizing: border-box;
+.banner-text p{
+    margin-block-start: 0em;
+    color: #d7dbe2;
+    font-size: 15px;
+}
+
+.banner button{
+    margin-left: 5%;
+    margin-right: -10%;
+    padding: 1% 5% 1% 5%;
+    border-radius: 7px;
     background-color: #3882f6;
     border-color: #f9faf8;
     color: #f9faf8;
-    /* margin-top: 5%; */
-    /* margin-bottom: 5%; */
-    /* padding: 0.5% 6% 0.5% 6%; */
-    border-radius: 5px;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 15px;
     cursor: pointer;
-    outline: none;
 }
 
 /* Footer */
