@@ -52,7 +52,33 @@ body {
 /* Gallery */
 
 .gallery{
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 0% 5% 0%
+}
+
+.gallery h2{
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.gallery-pics{
+    display: flex;
+    justify-content: center;
+    max-width: min-content;
+    gap: 8%;
+}
+
+.pic img{
+    border: 4px solid #3882f6;
+    border-radius: 7px;
+}
+
+.pic p{
+    margin-block-start: 0.5em;
+    text-align: center;
+    color: #525C69;
 }
 
 /* Quote */
