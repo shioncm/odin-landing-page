@@ -11,10 +11,11 @@ body {
 /* Header */
 
 .header{
-    flex: 2;
+    /* flex: 2; */
     background-color: #1f2937;
     padding-left: 15%;
     padding-right: 15%;
+    padding-bottom: 5%;
 }
    
 .header h1 {
@@ -49,6 +50,22 @@ body {
     align-items: center;
 }
 
+.header-main{
+    display: flex;
+    gap: 10px;
+}
+
+.header-main button {
+    padding: 2% 7% 2% 7%;
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 7px;
+    color: #f9faf8;
+    /* border-style: solid; */
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
 
 /* Gallery */
 
