@@ -22,10 +22,11 @@ body {
     font-size: 18px;
 }
 
-.header h3{
+.header h3{ /* Header logo (navbar header) */
     color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
+    margin-right: 2%;
 }
 
 .navbar{
